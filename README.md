@@ -6,8 +6,8 @@
 ---
 
 ### 🌐 Live Public Website
-👉 **Experience Terrible UI Live:** [https://sih-project-one-cyan.vercel.app/](https://sih-project-one-cyan.vercel.app/)  
-*(Hosted live on Vercel: Ultra-polished visual engineering paired with intentionally chaotic anti-UX patterns)*
+👉 **Experience Terrible UI Live:** [terrible-ui.vercel.app](https://sih-project-one-cyan.vercel.app/)  
+*(Ultra-polished visual engineering paired with intentionally chaotic anti-UX patterns)*
 
 ---
 
@@ -77,41 +77,6 @@ Matrix-style green CRT terminal with confidential warnings and an "Erase Evidenc
 | **Icons** | Lucide React |
 | **Audio Synthesis**| Web Audio API (Zero external MP3 dependencies) |
 | **State & Storage**| React Context + LocalStorage Persistence |
-
----
-
-## 📂 Project Organization
-
-```
-Terrible-UI/
-├── app/
-│   ├── layout.tsx              # Root shell with providers & metadata
-│   ├── globals.css             # Tailwind v4 theme & glass tokens
-│   ├── page.tsx                # Hero landing page & fleeing CTA
-│   ├── button-lab/page.tsx     # 25+ anti-pattern buttons
-│   ├── pop-the-balloon/page.tsx# Interactive balloon evasion game
-│   ├── form/page.tsx           # Contradictory form validation
-│   ├── popup-hell/page.tsx     # 5-stage nested modal labyrinth
-│   ├── badgpt/page.tsx         # Sarcastic chatbot page
-│   ├── dashboard/page.tsx      # Analytics & declining happiness chart
-│   ├── settings/page.tsx       # Inverted control panels
-│   └── secret/page.tsx         # Matrix classified console
-├── components/
-│   ├── Navbar.tsx              # Glowing top navigation & audio toggle
-│   ├── Footer.tsx              # Easter egg copyright footer
-│   ├── BadDecisionCounter.tsx  # Floating bad decisions badge
-│   ├── NotificationSystem.tsx  # Unpredictable corner toasts
-│   ├── AchievementToast.tsx    # Animated achievement banners
-│   ├── BadGPTModal.tsx         # Floating chatbot widget
-│   └── ErrorBoundary.tsx       # Comedic error handler
-├── context/
-│   └── TerribleContext.tsx     # Global state for decisions & settings
-├── hooks/
-│   └── useEasterEggs.ts        # Keyboard shortcuts & secret listeners
-└── lib/
-    ├── sound.ts                # Real-time Web Audio sound synthesis
-    └── achievements.ts         # Unlockable achievement definitions
-```
 
 ---
 
