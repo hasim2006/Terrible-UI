@@ -1,0 +1,186 @@
+export interface Achievement {
+  id: string;
+  title: string;
+  description: string;
+  icon: string;
+  unlocked: boolean;
+  unlockedAt?: string;
+}
+
+export const INITIAL_ACHIEVEMENTS: Achievement[] = [
+  {
+    id: 'FIRST_MISTAKE',
+    title: 'FIRST MISTAKE',
+    description: 'Triggered your very first terrible interaction.',
+    icon: 'AlertTriangle',
+    unlocked: false,
+  },
+  {
+    id: 'BUTTON_VICTIM',
+    title: 'BUTTON VICTIM',
+    description: 'Interacted with 10 different terrible buttons in the Button Lab.',
+    icon: 'MousePointerClick',
+    unlocked: false,
+  },
+  {
+    id: 'POPUP_SURVIVOR',
+    title: 'POPUP SURVIVOR',
+    description: 'Successfully clicked through all 5 levels of Popup Hell.',
+    icon: 'Layers',
+    unlocked: false,
+  },
+  {
+    id: 'FORM_WARRIOR',
+    title: 'FORM WARRIOR',
+    description: 'Attempted to submit The Simple Form despite impossible validation.',
+    icon: 'FileText',
+    unlocked: false,
+  },
+  {
+    id: 'UI_EXPLORER',
+    title: 'UI EXPLORER',
+    description: 'Navigated to 5 different pages looking for normal UX.',
+    icon: 'Compass',
+    unlocked: false,
+  },
+  {
+    id: 'YOU_FOUND_THIS',
+    title: 'YOU FOUND THIS?',
+    description: 'Discovered the hidden /secret route.',
+    icon: 'Key',
+    unlocked: false,
+  },
+  {
+    id: 'STILL_HERE',
+    title: 'STILL HERE?',
+    description: 'Accumulated 50 total bad decisions.',
+    icon: 'Clock',
+    unlocked: false,
+  },
+  {
+    id: 'CERTIFIED_UI_VICTIM',
+    title: 'CERTIFIED UI VICTIM',
+    description: 'Reached 100 bad decisions. You are now officially part of the UI.',
+    icon: 'Award',
+    unlocked: false,
+  },
+  {
+    id: 'TERRIBLE_DECISION_MAKER',
+    title: 'TERRIBLE DECISION MAKER',
+    description: 'Reached 250 bad decisions. Please seek professional help.',
+    icon: 'Skull',
+    unlocked: false,
+  },
+  {
+    id: 'FINAL_BOSS',
+    title: 'FINAL BOSS',
+    description: 'Tried to close BadGPT 3 times in a row.',
+    icon: 'Bot',
+    unlocked: false,
+  },
+  {
+    id: 'KONAMI_MASTER',
+    title: 'KONAMI MASTER',
+    description: 'Entered the secret Konami Code sequence.',
+    icon: 'Gamepad2',
+    unlocked: false,
+  },
+  {
+    id: 'STATUS_GLITCHER',
+    title: 'STATUS GLITCHER',
+    description: 'Tampered with the System Status panel metrics.',
+    icon: 'Activity',
+    unlocked: false,
+  },
+  {
+    id: 'LIGHT_SWITCHER',
+    title: 'LIGHT SWITCHER',
+    description: 'Switched settings to Worse Mode or Absolutely Worse Mode.',
+    icon: 'Moon',
+    unlocked: false,
+  },
+  {
+    id: 'CHART_OBSERVER',
+    title: 'CHART OBSERVER',
+    description: 'Watched User Happiness plummet on the Dashboard.',
+    icon: 'TrendingDown',
+    unlocked: false,
+  },
+  {
+    id: 'FIRST_BALLOON_CONTACT',
+    title: 'FIRST CONTACT',
+    description: 'Got close to the balloon for the very first time.',
+    icon: 'Sparkles',
+    unlocked: false,
+  },
+  {
+    id: 'BALLOON_NOPE',
+    title: 'NOPE',
+    description: 'Made the balloon escape 10 times.',
+    icon: 'Wind',
+    unlocked: false,
+  },
+  {
+    id: 'BALLOON_PERSISTENT',
+    title: 'PERSISTENT',
+    description: 'Attempted to pop the balloon 25 times.',
+    icon: 'MousePointerClick',
+    unlocked: false,
+  },
+  {
+    id: 'BALLOON_OBSESSED',
+    title: 'OBSESSED',
+    description: 'Attempted to pop the balloon 100 times.',
+    icon: 'Flame',
+    unlocked: false,
+  },
+  {
+    id: 'BALLOON_TOUCH_GRASS',
+    title: 'TOUCH GRASS',
+    description: 'Attempted to pop the balloon 250 times. Please go outside.',
+    icon: 'Trees',
+    unlocked: false,
+  },
+  {
+    id: 'BALLOON_WHISPERER',
+    title: 'BALLOON WHISPERER',
+    description: 'Got extremely close to the balloon 10 times without clicking.',
+    icon: 'Eye',
+    unlocked: false,
+  },
+  {
+    id: 'BALLOON_PREDICTABLE',
+    title: 'PREDICTABLE',
+    description: 'Made the balloon escape from the same direction repeatedly.',
+    icon: 'Compass',
+    unlocked: false,
+  },
+  {
+    id: 'BALLOON_ALMOST',
+    title: 'ALMOST',
+    description: 'Triggered the fake POP event.',
+    icon: 'PartyPopper',
+    unlocked: false,
+  },
+  {
+    id: 'BALLOON_LEGAL',
+    title: 'LEGAL ACTION',
+    description: 'Reached maximum balloon fear level. The balloon has contacted legal.',
+    icon: 'ShieldAlert',
+    unlocked: false,
+  },
+  {
+    id: 'BALLOON_WINS',
+    title: 'THE BALLOON WINS',
+    description: 'Reached 500 attempts against an invincible balloon.',
+    icon: 'Trophy',
+    unlocked: false,
+  },
+  {
+    id: 'BALLOON_I_HATE_THIS',
+    title: 'I HATE THIS GAME',
+    description: 'Spent way too long trying to pop a balloon.',
+    icon: 'Skull',
+    unlocked: false,
+  },
+];
